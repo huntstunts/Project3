@@ -72,8 +72,8 @@ select_option=st.selectbox("Buy or Sell",["Buy","Sell"])
 
 confirm=st.button("Confirm")
 
-api_key = "PKXUNEDZ7VLE1EYMR65D"
-api_secret = "9o20jTOiT6jwikAbN2gNTrtku09lqm8bX02k2WBs"
+api_key = "PKNPFNTEEFU0MMTNSBSK"
+api_secret = "5qhesBDtmzjLpk7eFewvHYeB1rl8UYPel7W8b00y"
 
 trading_client = TradingClient(api_key, api_secret, paper=True)
 
